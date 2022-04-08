@@ -53,14 +53,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div
-        className="Main-div"
-        // style={{
-        //   textAlign: "center",
-        //   margin: "0 250px",
-        //   border: "2px double black",
-        // }}
-      >
+      <div className="Main-div">
         <Igrica
           brojPokusaja={this.state.brojPokusaja}
           zamisljeniBroj={this.state.zamisljeniBroj}
